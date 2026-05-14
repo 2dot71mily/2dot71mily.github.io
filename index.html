@@ -88,7 +88,7 @@
 
     .intro {
       display: grid;
-      grid-template-columns: 1.25fr 220px;
+      grid-template-columns: 220px 1fr;
       gap: 30px;
       align-items: start;
     }
@@ -97,6 +97,7 @@
       width: 220px;
       aspect-ratio: 1;
       object-fit: cover;
+      object-position: center 35%;
       border-radius: 6px;
       border: 1px solid var(--line);
     }
@@ -228,6 +229,7 @@
     </header>
 
     <section class="intro" id="interests">
+      <img class="portrait" src="https://2dot71mily.github.io/emily_dec2023.png" alt="Photo of Emily McMilin">
       <div>
         <h2>Research Interests</h2>
         <ul class="interests">
@@ -237,7 +239,6 @@
           <li>Causal inference for language-model behavior</li>
         </ul>
       </div>
-      <img class="portrait" src="https://2dot71mily.github.io/emily_dec2023.png" alt="Photo of Emily McMilin">
     </section>
 
     <section id="news">
@@ -286,7 +287,7 @@
     <section id="misc">
       <h2>Misc</h2>
       <ul class="misc-list">
-        <li>Previously worked in electromagnetics; earlier work includes <a href="https://dblp.org/rec/conf/sigcomm/BharadiaMK13">Full Duplex Radios</a> (SIGCOMM 2013).</li>
+        <li>Previously worked in electromagnetics; earlier work includes <a href="https://dl.acm.org/doi/10.1145/2486001.2486033">Full Duplex Radios</a> (SIGCOMM 2013).</li>
         <li>Contributed <a href="https://www.udacity.com/video/encoder-decoder-models">lessons</a> to Udacity's Generative AI Nanodegree and Generative AI Fluency programs.</li>
         <li>Served as a technical reviewer for Manning's <a href="https://livebook.manning.com/book/causal-ai/acknowledgments">Causal AI</a>, reviewing chapters alongside Kevin Murphy.</li>
       </ul>
